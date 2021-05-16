@@ -1,0 +1,2757 @@
+{
+  "intents": [
+    {
+      "intent": "get_advising_form_info",
+      "examples": [
+        {
+          "text": "Advising form"
+        },
+        {
+          "text": "How to fill in my advising form?"
+        },
+        {
+          "text": "What is an advising form?"
+        },
+        {
+          "text": "What is my advising form?"
+        },
+        {
+          "text": "Where can I get an advising form?"
+        },
+        {
+          "text": "Who do I send an advising form?"
+        }
+      ],
+      "description": "Information about filling in, submitting the advising form"
+    },
+    {
+      "intent": "get_advisor_info",
+      "examples": [
+        {
+          "text": "How can I reach my advisor?"
+        },
+        {
+          "text": "How to contact my advisor?"
+        },
+        {
+          "text": "I would like to contact my advisor"
+        },
+        {
+          "text": "Who is my advisor?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "get_course_drop_information",
+      "examples": [
+        {
+          "text": "How can I drop courses?"
+        },
+        {
+          "text": "How to drop courses?"
+        },
+        {
+          "text": "When can I drop courses?"
+        }
+      ],
+      "description": "Get course dropping information"
+    },
+    {
+      "intent": "get_course_info",
+      "examples": [
+        {
+          "text": "advanced web development"
+        },
+        {
+          "text": "CS500"
+        },
+        {
+          "text": "CS503"
+        },
+        {
+          "text": "cy 640"
+        },
+        {
+          "text": "Information about this course"
+        },
+        {
+          "text": "I want to know about this course"
+        },
+        {
+          "text": "I would like to know more about this course"
+        },
+        {
+          "text": "MAchine learning"
+        },
+        {
+          "text": "Tell me about CS591"
+        },
+        {
+          "text": "What are the prerequisites of this course?"
+        },
+        {
+          "text": "What is CS591?"
+        },
+        {
+          "text": "Which courses are required before taking this course?"
+        }
+      ],
+      "description": "get info about course"
+    },
+    {
+      "intent": "get_course_registration_information",
+      "examples": [
+        {
+          "text": "From when to when an I register for courses?"
+        },
+        {
+          "text": "How can I enroll in courses?"
+        },
+        {
+          "text": "look up courses"
+        },
+        {
+          "text": "registration information"
+        },
+        {
+          "text": "When is the deadline to enroll for courses?"
+        },
+        {
+          "text": "When is the deadline to register for courses?"
+        },
+        {
+          "text": "When will the portal allow me to register for courses?"
+        }
+      ],
+      "description": "Information Regarding registration, deadline, advising forms."
+    },
+    {
+      "intent": "get_cs_office_info",
+      "examples": [
+        {
+          "text": "Computer Science Office"
+        },
+        {
+          "text": "CS Building"
+        },
+        {
+          "text": "Cs office"
+        }
+      ],
+      "description": "Get CS Office Info"
+    },
+    {
+      "intent": "get_day_info",
+      "examples": [
+        {
+          "text": "case ho"
+        },
+        {
+          "text": "How's it going?"
+        },
+        {
+          "text": "How was your day?"
+        },
+        {
+          "text": "What's up?"
+        }
+      ],
+      "description": "Askin how was your day?"
+    },
+    {
+      "intent": "get_degree_works_info",
+      "examples": [
+        {
+          "text": "How can I access my degree works?"
+        },
+        {
+          "text": "How do I access Degree works?"
+        },
+        {
+          "text": "What is Degree works?"
+        },
+        {
+          "text": "What is my degree works?"
+        }
+      ],
+      "description": "Get degreeworks Information."
+    },
+    {
+      "intent": "get_list_of_core_courses",
+      "examples": [
+        {
+          "text": "List of core courses for Computer Science"
+        },
+        {
+          "text": "What are the required core courses?"
+        },
+        {
+          "text": "What core courses do I need?"
+        },
+        {
+          "text": "Which courses are must enroll for this degree?"
+        },
+        {
+          "text": "Which courses do I need to enroll?"
+        },
+        {
+          "text": "Which courses must I enroll in to get this degree?"
+        }
+      ],
+      "description": "Get list of core courses"
+    },
+    {
+      "intent": "get_list_of_cs_core_courses",
+      "examples": [
+        {
+          "text": "Get list of CS core courses"
+        },
+        {
+          "text": "What are the core-courses for computer science?"
+        },
+        {
+          "text": "What are the core courses for CS degree?"
+        },
+        {
+          "text": "What are the core courses for CS major?"
+        },
+        {
+          "text": "Which courses do I need for CS degree?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "get_list_of_cy_core_courses",
+      "examples": [
+        {
+          "text": "Get list of CY core courses"
+        },
+        {
+          "text": "what are the core courses for CY?"
+        },
+        {
+          "text": "what are the required courses for cybersecurity"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "get_list_of_elective_courses",
+      "examples": [
+        {
+          "text": "Get a list of elective courses"
+        },
+        {
+          "text": "What are the elective courses?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "get_num_required_courses",
+      "examples": [
+        {
+          "text": "Can I take 4 courses in my final semester?"
+        },
+        {
+          "text": "How many courses do I need to enroll in?"
+        },
+        {
+          "text": "How many courses do I need to enroll in every semester?"
+        },
+        {
+          "text": "How many face-to-face courses do I need to enroll in?"
+        },
+        {
+          "text": "How many online courses can I enroll in?"
+        },
+        {
+          "text": "minimum requirement"
+        },
+        {
+          "text": "What is the minimum number of courses I need to enroll in to maintain my status?"
+        },
+        {
+          "text": "What is the minimum number of face-to-face courses I need to enroll in?"
+        },
+        {
+          "text": "What is the required number of enrolled courses?"
+        },
+        {
+          "text": "What should I do if I only have one course left for my last semester?"
+        }
+      ],
+      "description": "Get number of required courses to enroll"
+    },
+    {
+      "intent": "get_num_required_courses_international",
+      "examples": [
+        {
+          "text": "Get minimum required courses for International Students"
+        },
+        {
+          "text": "Get minimum required courses for International Students per semester"
+        },
+        {
+          "text": "How many online courses can I take as an international student?"
+        }
+      ],
+      "description": "Get number of required courses for international students."
+    },
+    {
+      "intent": "get_num_required_courses_us",
+      "examples": [
+        {
+          "text": "As a US citizen, what is the minimum number of courses I need to be enrolled in per semester?"
+        },
+        {
+          "text": "Get minimum required courses for Us Citizens per semester."
+        }
+      ],
+      "description": "Required Number of courses for US citizens"
+    },
+    {
+      "intent": "get_prerequisite_courses_for_degree",
+      "examples": [
+        {
+          "text": "prereqs"
+        },
+        {
+          "text": "Prerequisites"
+        },
+        {
+          "text": "What are the prerequisite courses?"
+        },
+        {
+          "text": "What are the prerequisite courses for this degree?"
+        },
+        {
+          "text": "What are the prerequisites?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "get_prerequisites_waiving_information",
+      "examples": [
+        {
+          "text": "How can I waive the prerequisites?"
+        }
+      ],
+      "description": "Get prerequisites waiving information"
+    },
+    {
+      "intent": "get_reduced_course_load_info",
+      "examples": [
+        {
+          "text": "How can I apply for reduced course load?"
+        },
+        {
+          "text": "I would like to apply for reduced course load."
+        },
+        {
+          "text": "What is reduced course load?"
+        }
+      ],
+      "description": "Get reduced course load info."
+    },
+    {
+      "intent": "get_required_credits_for_degree",
+      "examples": [
+        {
+          "text": "credit requirements"
+        },
+        {
+          "text": "credits"
+        },
+        {
+          "text": "How many credits do i need to graduate?"
+        },
+        {
+          "text": "How many elective courses do I need if I choose Non-thesis for graduation?"
+        },
+        {
+          "text": "How many total credits are required to graduate?"
+        },
+        {
+          "text": "number of credits required to graduate"
+        },
+        {
+          "text": "What is the minimum number of credits to graduate?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "get_required_credits_for_degree_cs",
+      "examples": [
+        {
+          "text": "Get required number of credits to graduate for CS"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "get_required_credits_for_degree_cy",
+      "examples": [
+        {
+          "text": "Get required number of credits to graduate for CY"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "greeting",
+      "examples": [
+        {
+          "text": "Good afternoon."
+        },
+        {
+          "text": "Goodday"
+        },
+        {
+          "text": "Good evening."
+        },
+        {
+          "text": "Good morning."
+        },
+        {
+          "text": "Hello"
+        },
+        {
+          "text": "Hi"
+        }
+      ],
+      "description": "Greeting"
+    }
+  ],
+  "entities": [
+    {
+      "entity": "is_doing_thesis",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "false",
+          "synonyms": [
+            "no"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "true",
+          "synonyms": [
+            "yes"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "is_international",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "false",
+          "synonyms": [
+            "no"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "true",
+          "synonyms": [
+            "yes"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "queried_course_name",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "CS500",
+          "synonyms": [
+            "Fundamentals of Programming"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "CS503",
+          "synonyms": [
+            "Fundamentals of Computing"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "CS505",
+          "synonyms": [
+            "Distributed Cloud Computing"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "CS506",
+          "synonyms": [
+            "Data Mining"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "CS510",
+          "synonyms": [
+            "Information Security and Assurance"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "CS533",
+          "synonyms": [
+            "Mobile Computing"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "CS560",
+          "synonyms": [
+            "Computer Architecture"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "CS575",
+          "synonyms": [
+            "Advanced Web Development"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "CS580",
+          "synonyms": [
+            "Advanced Robotics"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "CS581",
+          "synonyms": [
+            "Advanced Network Programming"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "CS585",
+          "synonyms": [
+            "Formal Systems and Modeling"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "CS591",
+          "synonyms": [
+            "Advanced Artificial Intelligence"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "CS603",
+          "synonyms": [
+            "Introduction to Data Analytics"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "CS605",
+          "synonyms": [
+            "Research Methods"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "CS609",
+          "synonyms": [
+            "Advanced Programming Languages"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "CS612",
+          "synonyms": [
+            "Simulation and Modeling for Computing"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "CS630",
+          "synonyms": [
+            "Current Topics in Human Computer Interactions"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "CS631",
+          "synonyms": [
+            "Advanced Software Engineering"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "CS632",
+          "synonyms": [
+            "Emerging and Converging Technologies and Computing"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "CS633",
+          "synonyms": [
+            "Digital Signal and Image Processing"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "CS634",
+          "synonyms": [
+            "Machine Learning"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "CS640",
+          "synonyms": [
+            "Advanced Database System"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "CS645",
+          "synonyms": [
+            "Internet of Things"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "CS650",
+          "synonyms": [
+            "Theory of Computation"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "CS653",
+          "synonyms": [
+            "Special Topics"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "CS690",
+          "synonyms": [
+            "Graduate Project"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "CS691",
+          "synonyms": [
+            "Independent Study"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "CS693",
+          "synonyms": [
+            "Independend Study (Suprevison)"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "CS695",
+          "synonyms": [
+            "Seminar I"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "CS696",
+          "synonyms": [
+            "Seminar II"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "CS697",
+          "synonyms": [
+            "Thesis Research I"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "CS698",
+          "synonyms": [
+            "Thesis Research II"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "CS699",
+          "synonyms": [
+            "Internship"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "CY501",
+          "synonyms": [
+            "Introduction to Cybersecurity"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "CY510",
+          "synonyms": [
+            "Information Security and Assurance"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "CY520",
+          "synonyms": [
+            "Inromation Security in System Administration"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "CY610",
+          "synonyms": [
+            "Web Application Seutiy"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "CY620",
+          "synonyms": [
+            "Computer Forensics"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "CY630",
+          "synonyms": [
+            "Hardware Security"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "CY640",
+          "synonyms": [
+            "Security of Critical Infrastructure"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "CY643",
+          "synonyms": [
+            "Independent Study"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "CY650",
+          "synonyms": [
+            "Legal, Risk and Compliance for Security"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "CY653",
+          "synonyms": [
+            "Special Topics in Cybersecurity"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "CY655",
+          "synonyms": [
+            "Research Methods in Cybersecurity"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "CY660",
+          "synonyms": [
+            "Cyber Operations"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "CY670",
+          "synonyms": [
+            "Secure Operating Environments"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "CY690",
+          "synonyms": [
+            "Graduate Project"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "CY691",
+          "synonyms": [
+            "Thesis Research I"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "CY692",
+          "synonyms": [
+            "Thesis Research II"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "GR698",
+          "synonyms": [
+            "Master's Final Comprehensive Examination"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "GR699",
+          "synonyms": [
+            "Master's Oral Examination"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "MA664",
+          "synonyms": [
+            " Mathematical Cryptography"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "queried_semester",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "fall",
+          "synonyms": [
+            "Fall"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "spring",
+          "synonyms": [
+            "Spring"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "summer",
+          "synonyms": [
+            "Summer"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "webhooks": [
+    {
+      "url": "",
+      "name": "main_webhook",
+      "headers": []
+    }
+  ],
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Advisor",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Your advisor is Dr. Reshmi Mitra.\nShe can be emailed at \"rmitra\\@semo.edu\". \nShe can also be contacted at 573-651-2920. \nNote, she may be busy and may take time to reponse to your queries. You should prefer using this assistant for queries and reach out to her if the assistant is not able to satisfy your queries."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#get_advisor_info",
+      "dialog_node": "Anything else",
+      "previous_sibling": "Welcome",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "CY630",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "CY630--Hardware Security<hr>This course covers hardware physical attacks and security primitives; debugging, applicability techniques of hardware security within ecosystems. Prerequisites: CS 500; CS 503. (3 credit hours)."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1611595329596",
+      "conditions": "@queried_course_name:CY630",
+      "dialog_node": "node_10_1611594541117",
+      "previous_sibling": "node_1_1611594804675"
+    },
+    {
+      "type": "standard",
+      "title": "CS690",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "CS690--Graduate Project<hr>Evaluate and defend selected activities such as projects, papers, etc.,completed during the student’s period of study. Prerequisites: consent of department chairperson or graduate coordinator; enrollment in final semester of degree program. (0 credit hour)."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1611595329596",
+      "conditions": "@queried_course_name:CS690",
+      "dialog_node": "node_10_1611594913328",
+      "previous_sibling": "node_6_1611594891995"
+    },
+    {
+      "type": "standard",
+      "title": "CY520",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "CY520--Information Security in Systems Administration<hr>Information security, security constructs, secure software development, and authorization models. Security administration of networking elements, databases, operating and cloud based systems. Prerequisites: CS 380 and CS 480, or CS 503; with minimum grades of C. (3 credit hours)."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1611595329596",
+      "conditions": "@queried_course_name:CY520",
+      "dialog_node": "node_10_1611594935822",
+      "previous_sibling": "node_4_1611594971914"
+    },
+    {
+      "type": "standard",
+      "title": "CS698",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "CS698--Thesis Research II<hr>Research leading to thesis as directed by advisor and/or chair of thesis committee. Prerequisites: CS 697. (3 credit hours)."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1611595329596",
+      "conditions": "@queried_course_name:CS698",
+      "dialog_node": "node_10_1611595102626",
+      "previous_sibling": "node_9_1611595121288"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello. I will be your graduate assistant today.\nI can give you information about Courses, Prerequisites, Graduation, Reduced Course Load and more.\n How may I help you?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "node_10_1611596080321",
+      "previous_sibling": "node_4_1611599459883"
+    },
+    {
+      "type": "standard",
+      "title": "Get Prerequisite waiving information",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here are your options for waiving prerequisites:\n<li>Submit a certificate of completion of the pre-req courses, which the student has taken in another regionally accredited university.</li>\n<li>Show any evidence in form of a letter representing significant experience in programming and introductory Computer Science. This should indicate the date of service and issued on organization standard letterhead. </li>\n<li>Take the pre-req waiver exam in the Computer Sc department about the programming and computing courses and get a 'B' grade.</li>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1615933476554",
+      "conditions": "#get_prerequisites_waiving_information",
+      "dialog_node": "node_10_1615935534725",
+      "previous_sibling": "node_7_1611597670298"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Core courses are courses that you must take in order to graduate. The following courses are required for CY majors. More information can be found in your <a target=\"_blank\" href=\"https://degree.semo.edu:8443/dwprod/dwdashboard/dashboard\">degree works</a>."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "CY 501: Introduction to Cybersecurity",
+                "value": {
+                  "input": {
+                    "text": "CY 501"
+                  }
+                }
+              },
+              {
+                "label": "CY 520: Information Security in System Administration",
+                "value": {
+                  "input": {
+                    "text": "CY 520"
+                  }
+                }
+              },
+              {
+                "label": "CY 640: Security of Critical Infrastructure",
+                "value": {
+                  "input": {
+                    "text": "CY 640"
+                  }
+                }
+              },
+              {
+                "label": "CY 670: Secure Operating Environments",
+                "value": {
+                  "input": {
+                    "text": "CY 670"
+                  }
+                }
+              },
+              {
+                "label": "MA 664: Computational Cryptography",
+                "value": {
+                  "input": {
+                    "text": "MA 664"
+                  }
+                }
+              }
+            ],
+            "description": "",
+            "response_type": "option"
+          },
+          {
+            "values": [
+              {
+                "text": "<hr><li><a target=\"_blank\" href=\"https://semo.edu/pdf/degree_map/2020-2021/grad/MS-Cybersecurity-2021.pdf\">MSCY Degree Map</a></li>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1611775178283",
+      "conditions": "#get_list_of_cy_core_courses",
+      "dialog_node": "node_1_1611534625360",
+      "previous_sibling": "node_9_1611534065859"
+    },
+    {
+      "type": "standard",
+      "title": "CS506",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "CS506--Distributed Cloud Computing<hr>Principles and technologies for distributed cloud computing development. Prerequisites: CS 265 and CS 380 and CS 480; or CS 500 and CS 503; all with minimum grades of C. (3 credit hours)."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1611595329596",
+      "conditions": "@queried_course_name:CS506",
+      "dialog_node": "node_1_1611593868309",
+      "previous_sibling": "node_9_1611593725881"
+    },
+    {
+      "type": "standard",
+      "title": "CS603",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "CS603--Introduction to Data Analytics<hr>Data collection, analysis and visualization of Big Data. Prerequisites: CS 500; CS 503. (3 credit hours)."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1611595329596",
+      "conditions": "@queried_course_name:CS603",
+      "dialog_node": "node_1_1611594297555",
+      "previous_sibling": "node_7_1611594262829"
+    },
+    {
+      "type": "standard",
+      "title": "CY620",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "CY620--Computer Forensics<hr>Forensic tools for recreating attack scenarios, collecting evidence, analyzing data by observation strategies, debugging, and incidence response. Prerequisites: CS 500; CS 503. (3 credit hours)."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1611595329596",
+      "conditions": "@queried_course_name:CY620",
+      "dialog_node": "node_1_1611594804675",
+      "previous_sibling": "node_7_1611594896454"
+    },
+    {
+      "type": "standard",
+      "title": "CS645",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "CS645--Internet of Things<hr>Covers architectures, protocols, layers, services and applications of a packet network from general Internet to sensor networks. Prerequisites: CS 500; CS 503. (3 credit hours)."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1611595329596",
+      "conditions": "@queried_course_name:CS645",
+      "dialog_node": "node_1_1611594837240",
+      "previous_sibling": "node_4_1611594672231"
+    },
+    {
+      "type": "standard",
+      "title": "CS696",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "CS696--Seminar II<hr>Talks/presentations by invited speakers, faculty and graduate students over major issues and trends in computing. Prerequisites: CS695. (3 credit hours)."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1611595329596",
+      "conditions": "@queried_course_name:CS696",
+      "dialog_node": "node_1_1611595013418",
+      "previous_sibling": "node_1_1611595038187"
+    },
+    {
+      "type": "standard",
+      "title": "CS697",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "CS697--Thesis Research I<hr>Proposal development leading to thesis as directed by advisor and/or chair of thesis committee. Prerequisite: CS 605. (3 credit hours)."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1611595329596",
+      "conditions": "@queried_course_name:CS697",
+      "dialog_node": "node_1_1611595038187",
+      "previous_sibling": "node_10_1611595102626"
+    },
+    {
+      "type": "standard",
+      "title": "Get required number of credits / course to graduate",
+      "output": {
+        "generic": [
+          {
+            "title": "What is your major?",
+            "options": [
+              {
+                "label": "Applied Computer Science",
+                "value": {
+                  "input": {
+                    "text": "Get required number of credits to graduate for CS"
+                  }
+                }
+              },
+              {
+                "label": "Cybersecurity",
+                "value": {
+                  "input": {
+                    "text": "Get required number of credits to graduate for CY"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_2_1611775126827",
+      "conditions": "#get_required_credits_for_degree",
+      "dialog_node": "node_1_1611595725820"
+    },
+    {
+      "type": "folder",
+      "title": "Get List of Core Courses",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1611775178283",
+      "previous_sibling": "node_9_1615933476554"
+    },
+    {
+      "type": "standard",
+      "title": "CY692",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "CY692--Thesis Research II<hr>Students develop knowledge, understanding, skills necessary o work with problems within cybersecurity and defend research topics orally. Prerequisite: CY 691. (3 credit hours)."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1611595329596",
+      "conditions": "@queried_course_name:CY692",
+      "dialog_node": "node_2_1611593781971",
+      "previous_sibling": "node_9_1611593996958"
+    },
+    {
+      "type": "standard",
+      "title": "CS533",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "CS533--Mobile Computing<hr>Mobile device architectures and the application development frameworks for various modern mobile platforms. Prerequisites: CS 265 and CS 380 and CS 480; or CS 500 and CS 503; all with minimum grades of C. (3 credit hours)."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1611595329596",
+      "conditions": "@queried_course_name:CS533",
+      "dialog_node": "node_2_1611593896843",
+      "previous_sibling": "node_1_1611595013418"
+    },
+    {
+      "type": "standard",
+      "title": "CY690",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "CY690--Graduate Project<hr>Develop and complete a project by applying the knowledge and skills of cybersecurity in a scientific and practical manner. Prerequisites: Consent of department chairperson or graduate coordinator; enrollment in final semester of degree program. (0 credit hour)."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1611595329596",
+      "conditions": "@queried_course_name:CY690",
+      "dialog_node": "node_2_1611594104464",
+      "previous_sibling": "node_4_1611594171635"
+    },
+    {
+      "type": "standard",
+      "title": "CY653",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "CY653--Special Topics in Cybersecurity<hr>Students will learn contemporary topics in an area of cybersecurity. Prerequisites: CS 500; CS 503. (3 credit hours)."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1611595329596",
+      "conditions": "@queried_course_name:CY653",
+      "dialog_node": "node_2_1611594324107",
+      "previous_sibling": "node_7_1611594402579"
+    },
+    {
+      "type": "standard",
+      "title": "CS612",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "CS612--Simulation and Modeling for Computing<hr>Principles of modeling and analysis of discrete event systems, computer systems and computer networks. Prerequisite: CS 500. (3 credit hours)."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1611595329596",
+      "conditions": "@queried_course_name:CS612",
+      "dialog_node": "node_2_1611594415260",
+      "previous_sibling": "node_6_1611594346710"
+    },
+    {
+      "type": "standard",
+      "title": "CS633",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "CS633--Digital Signal and Image Processing<hr>Aspects and the corresponding computational techniques and tools currently used in digital signal and image processing. Prerequisites: CS 500; CS 503. (3 credit hours)."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1611595329596",
+      "conditions": "@queried_course_name:CS633",
+      "dialog_node": "node_2_1611594591623",
+      "previous_sibling": "node_4_1611594503151"
+    },
+    {
+      "type": "folder",
+      "title": "Get required number of credits / courses to graduate",
+      "dialog_node": "node_2_1611775126827",
+      "previous_sibling": "node_1_1611775178283"
+    },
+    {
+      "type": "standard",
+      "title": "Registration Information",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "After you have filled in and sent in your advising form, and your courses have been approved by your advisor, you may register in courses from 9AM to 9PM using the <a target=\"_blank\" href=\"https://portal.semo.edu\">SEMO portal</a>. The last day to add or drop courses is the first friday of classes.\n<ol>\n<li><a target=\"_blank\"  href=\"https://www.youtube.com/watch?v=kl4zNcwyDlc\">Video guide on how to register for courses</a></li>\n</ol>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1615931232363",
+      "conditions": "#get_course_registration_information",
+      "dialog_node": "node_3_1611535399384"
+    },
+    {
+      "type": "standard",
+      "title": "CS585",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "CS585--Formal Systems and Modeling<hr>Course covers nondeterminism, program specification and verification, formal models of computation and languages. Prerequisites: CS 265 or CS 500 with minimum grades of C. (3 credit hours)."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1611595329596",
+      "conditions": "@queried_course_name:CS585",
+      "dialog_node": "node_3_1611594106839",
+      "previous_sibling": "node_8_1611594065587"
+    },
+    {
+      "type": "standard",
+      "title": "CY655",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "CY655--Research Methods in Cybersecurity<hr>Cybersecurity research methodology in analyzing sources, methods, adversaries, threats, philosophy resulting in completion of a research project. (3 credit hours)."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1611595329596",
+      "conditions": "@queried_course_name:CY655",
+      "dialog_node": "node_3_1611594261031",
+      "previous_sibling": "node_2_1611594324107"
+    },
+    {
+      "type": "standard",
+      "title": "CY670",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "CY670--Secure Operating Environments<hr>Trust frameworks and operation of secure operating environments and secure ecosystems within critical infrastructure. Prerequisites: CY 501. (3 credit hours)."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1611595329596",
+      "conditions": "@queried_course_name:CY670",
+      "dialog_node": "node_4_1611594171635",
+      "previous_sibling": "node_9_1611594216847"
+    },
+    {
+      "type": "standard",
+      "title": "CS632",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "CS632--Emerging and Converging Technologies and Computing<hr>Explores current emerging and converging technologies related in computer applications and their implications. Prerequisites: CS 500; CS 503. (3 credit hours)."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1611595329596",
+      "conditions": "@queried_course_name:CS632",
+      "dialog_node": "node_4_1611594503151",
+      "previous_sibling": "node_9_1611594472983"
+    },
+    {
+      "type": "standard",
+      "title": "CS640",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "CS640--Advanced Database Systems<hr>Covers the major topics on designing, using, and implementing database systems and database applications. (3 credit hours)."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1611595329596",
+      "conditions": "@queried_course_name:CS640",
+      "dialog_node": "node_4_1611594672231",
+      "previous_sibling": "node_7_1611594631672"
+    },
+    {
+      "type": "standard",
+      "title": "CY510",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "CY510--Information Security and Assurance<hr>System security principles, components of system security, information assurance with high assurance software design. Cryptographic principles to design secure systems. Data protection at rest and in motion and evolution of challenges in information security. Prerequisites: CS 265 and CS 380 and CS 480, or CS 500 and CS 503; with minimum grades of C. (3 credit hours)."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1611595329596",
+      "conditions": "@queried_course_name:CY510",
+      "dialog_node": "node_4_1611594971914",
+      "previous_sibling": "node_4_1611595106845"
+    },
+    {
+      "type": "standard",
+      "title": "CY501",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "CY501--Introduction to Cybersecurity<hr>Advanced overview of the field of Cybersecurity, information assurance terminology, security issues, applied cryptography as well as computer forensics applications and methodology. Pre- or corequisite: CS 265 or CS 500; with minimum grades of C. (3 credit hours)."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1611595329596",
+      "conditions": "@queried_course_name:CY501",
+      "dialog_node": "node_4_1611595106845",
+      "previous_sibling": "node_1_1611593868309"
+    },
+    {
+      "type": "folder",
+      "title": "get number of required courses every semester",
+      "dialog_node": "node_4_1611599459883",
+      "previous_sibling": "node_2_1611775126827"
+    },
+    {
+      "type": "standard",
+      "title": "Get minimum required courses International",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "As an international student on a student visa, you must enroll in minimum (9 credits) and maximum(9 credits) every semester to maintain your immigration status. Out of these courses, 2 must be face-to-face course.\nHowever, during COVID, these course can all be online and you will still be able to maintain status. \nFurthermore, if it is your last semester, you may apply for a reduced course load, which will allow you to take less than 9 credit hours. You may also take more than 9 credit hours in your last semester if approved by your advisor and the department chair."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1611599459883",
+      "conditions": "#get_num_required_courses_international",
+      "dialog_node": "node_5_1611592444990"
+    },
+    {
+      "type": "standard",
+      "title": "CS575",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "CS575--Advanced Web Development<hr>Latest technologies for the front-end and back-end web development. Prerequisites: CS 265 or CS 500 with minimum grades of C. (3 credit hours)."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1611595329596",
+      "conditions": "@queried_course_name:CS575",
+      "dialog_node": "node_5_1611593991638",
+      "previous_sibling": "node_6_1611593924313"
+    },
+    {
+      "type": "standard",
+      "title": "CY640",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "CY640--Security of Critical Infrastructure<hr>Vulnerability assessment, asset identification, governance, monitoring, access control, risk, compliance, and defense techniques of critical infrastructure. (3 credit hours)."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1611595329596",
+      "conditions": "@queried_course_name:CY640",
+      "dialog_node": "node_5_1611594500580",
+      "previous_sibling": "node_10_1611594541117"
+    },
+    {
+      "type": "standard",
+      "title": "CS695",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "CS695--Seminar I<hr>Impact of of computing on society; social, professional, ethical, legal and security and privacy issues and responsibilities. Prerequisites: CS300 and CS380 and CS480 or CS500 and CS503; or consent of Department Chairperson. (1 credit hour)."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1611595329596",
+      "conditions": "@queried_course_name:CS695",
+      "dialog_node": "node_5_1611594979301",
+      "previous_sibling": "node_8_1611594956747"
+    },
+    {
+      "type": "folder",
+      "title": "Specific Course Information",
+      "dialog_node": "node_5_1611595329596",
+      "previous_sibling": "node_6_1611596595240"
+    },
+    {
+      "type": "standard",
+      "title": "Get required number of credits / courses to graduate for CY",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "In order to graduate from the Cybersecurity degree, you need to complete a total of 30 credit hours.<hr>\n1. For non-thesis students:\n<li>15 credit hours of core courses</li>\n<li> 15 credit hours of electives</li>\n<li>You also need to enroll in:</li>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "CY690 (0 Credit Hours) ",
+                "value": {
+                  "input": {
+                    "text": "CY690"
+                  }
+                }
+              },
+              {
+                "label": "GR698 (0 Credit Hours)",
+                "value": {
+                  "input": {
+                    "text": "GR698"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          },
+          {
+            "values": [
+              {
+                "text": "<hr>2. For thesis students:\n<li>15 credit hours of core courses</li>\n<li>9 credit hours of electives</li>\n <li>You also need to enroll in:</li>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "CY691 (3 Credit Hours) ",
+                "value": {
+                  "input": {
+                    "text": "CY691"
+                  }
+                }
+              },
+              {
+                "label": "CY692 (3 Credit Hours)",
+                "value": {
+                  "input": {
+                    "text": "CY692"
+                  }
+                }
+              },
+              {
+                "label": "GR699 (0 Credit Hours)",
+                "value": {
+                  "input": {
+                    "text": "GR699"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_2_1611775126827",
+      "conditions": "#get_required_credits_for_degree_cy",
+      "dialog_node": "node_5_1611597474342",
+      "previous_sibling": "node_8_1611597136293"
+    },
+    {
+      "type": "standard",
+      "title": "Get Cs Offce Info",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "<li>Department Chair: Charles D. McAllister, Ph.D.</li>\n<li>Office: Dempster Hall 021A</li>\n<li><a target=\"_blank\" href=\"https://semo.edu/computer-science/faculty/index.html\">More information about CS Faculty</a></li>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#get_cs_office_info",
+      "dialog_node": "node_5_1616989056331",
+      "previous_sibling": "node_10_1611596080321"
+    },
+    {
+      "type": "standard",
+      "title": "List of Core Courses",
+      "output": {
+        "generic": [
+          {
+            "title": "What is your major?",
+            "options": [
+              {
+                "label": "Applied Computer Science",
+                "value": {
+                  "input": {
+                    "text": "Get list of CS core courses"
+                  }
+                }
+              },
+              {
+                "label": "Cybersecurity",
+                "value": {
+                  "input": {
+                    "text": "Get list of CY core courses"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_1_1611775178283",
+      "conditions": "#get_list_of_core_courses",
+      "dialog_node": "node_6_1611533920787"
+    },
+    {
+      "type": "standard",
+      "title": "Advising Form Information",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "In your advising form, you will write the courses you have taken in the past and their respective semesters and the courses you are wanting to take in the upcoming semester. These courses will then be looked at by your advisor, Dr. Mitra and once they are approved, you may start enrolling in them using the portal (portal.semo.edu). The advising form is sent to all graduate students before the semester starts. Furthermore, it can be obtained by emailing Dayna at dnorthington\\@semo.edu.\n<li><a target=\"_blank\" href=\"https://www.youtube.com/watch?v=fGxkWKEO1Dc\">Video guide on how to fill your advising form</a></li>\n<li><a target=\"_blank\" href=\"https://ufile.io/u349ef7l\">Download CY Advising Form</a></li>\n<li><a target=\"_blank\" href=\"https://ufile.io/agcpldwm\">Download CS Advising Form</a></li>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#get_advising_form_info",
+      "dialog_node": "node_6_1611588960751",
+      "previous_sibling": "node_5_1611595329596"
+    },
+    {
+      "type": "standard",
+      "title": "Get minimum required courses US Citizen",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "As a US citizen, In order to be a full-time student, you need to be enrolled in atleast 9 credits every semester. These can be online or face-to-face.\nIf you are enrolled in less than 9, you are considered a part-time student."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1611599459883",
+      "conditions": "#get_num_required_courses_us",
+      "dialog_node": "node_6_1611592949120",
+      "previous_sibling": "node_5_1611592444990"
+    },
+    {
+      "type": "standard",
+      "title": "CS503",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "CS503--Fundamentals of Computing<hr>Covers basic understanding of fundamental concepts in computer organizations, networks, algorithms and operating systems. Prerequisite: consent of department chairperson.  (CS503 does not count towards your degree. However you are required to clear them before you are allowed any regular core or optional course in the subsequent semesters)."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1611595329596",
+      "conditions": "@queried_course_name:CS503",
+      "dialog_node": "node_6_1611593627022",
+      "previous_sibling": "node_8_1611593571074"
+    },
+    {
+      "type": "standard",
+      "title": "CS560",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "CS560--Computer Architecture<hr>Major architectures in modern computer systems, including the evolution of computer architectures. Prerequisites: CS 300 and CS 380 and CS 480; or CS 500 and CS 503; all with minimum grades of C. (3 credit hours)."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1611595329596",
+      "conditions": "@queried_course_name:CS560",
+      "dialog_node": "node_6_1611593924313",
+      "previous_sibling": "node_2_1611593896843"
+    },
+    {
+      "type": "standard",
+      "title": "CS580",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "CS580--Advanced Robotics<hr>Modern topics in Artificial Intelligence robotics. Prerequisites: CS 300 and CS 380 and CS 480; or CS 500 and CS 503; all with minimum grades of C. (3 credit hours)."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1611595329596",
+      "conditions": "@queried_course_name:CS580",
+      "dialog_node": "node_6_1611594043073",
+      "previous_sibling": "node_5_1611593991638"
+    },
+    {
+      "type": "standard",
+      "title": "CS609",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "CS609--Advanced Programming Languages<hr>Covers objects, testing, deployment, maintenance of a component base solution and design patterns using object oriented concepts. Prerequisite: CS 500. (3 credit hours)."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1611595329596",
+      "conditions": "@queried_course_name:CS609",
+      "dialog_node": "node_6_1611594346710",
+      "previous_sibling": "node_7_1611594322929"
+    },
+    {
+      "type": "standard",
+      "title": "CS653",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "CS653--Special Topics<hr>Contemporary topics in an area of computer science. Prerequisites: CS 500; CS503. (3 credit hours)."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1611595329596",
+      "conditions": "@queried_course_name:CS653",
+      "dialog_node": "node_6_1611594891995",
+      "previous_sibling": "node_8_1611594869731"
+    },
+    {
+      "type": "standard",
+      "title": "Get Reduced Course Load Information",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "As an international student, if it is your last semester, you may enroll in less than 9 credit hours if approved by your advisor and the department chair. This is called reduced course load. You may apply for reduced course load using the portal (portal.semo.edu)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#get_reduced_course_load_info",
+      "dialog_node": "node_6_1611596595240",
+      "previous_sibling": "node_6_1611597900392"
+    },
+    {
+      "type": "standard",
+      "title": "Get list of elective courses",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The elective courses for your degree are constantly changing. "
+              },
+              {
+                "text": "In order to see a list of classes offered in a desired semester, please visit the portal (portal.semo.edu) and go to the student ss tab and click on \"Look up Classes\"."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "conditions": "#get_list_of_elective_courses",
+      "dialog_node": "node_6_1611597900392",
+      "previous_sibling": "node_9_1615916147377"
+    },
+    {
+      "type": "standard",
+      "title": "Dropping Information",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You can drop courses from the </a href=\"https://portal.semo.edu\" target=\"_blank\">SEMO portal</a>\n<li><a target=\"_blank\" href=\"https://www.youtube.com/watch?v=UaO07envoW0\">Video guide on how to drop courses</a></li>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1615931232363",
+      "conditions": "#get_course_drop_information",
+      "dialog_node": "node_6_1615931354350",
+      "previous_sibling": "node_3_1611535399384"
+    },
+    {
+      "type": "standard",
+      "title": "GR699",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "GR699<hr>The oral examination will be conducted for students writing a thesis or internship paper in lieu of the comprehensive examination, except by permission of the graduate program coordinator. Examination fee applied."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1611595329596",
+      "conditions": "@queried_course_name:GR699",
+      "dialog_node": "node_6_1615946670641",
+      "previous_sibling": "node_7_1615946610247"
+    },
+    {
+      "type": "standard",
+      "title": "Get Minimum Required Courses",
+      "output": {
+        "generic": [
+          {
+            "title": "What is your immigration status?",
+            "options": [
+              {
+                "label": "I am a US Citizen",
+                "value": {
+                  "input": {
+                    "text": "Get minimum required courses for Us Citizens per semester"
+                  }
+                }
+              },
+              {
+                "label": "I am on F-1 / J-1 / student visa",
+                "value": {
+                  "input": {
+                    "text": "Get minimum required courses for International Students"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_4_1611599459883",
+      "conditions": "#get_num_required_courses",
+      "dialog_node": "node_7_1611589391727",
+      "previous_sibling": "node_6_1611592949120"
+    },
+    {
+      "type": "standard",
+      "title": "CS591",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "CS591--Advanced Artificial Intelligence<hr>Covers major Artificial Intelligence areas in detail. Prerequisites: CS 300 and CS 380 and CS 480; or CS 500 and CS 503; all with minimum grades of C. (3 credit hours)."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1611595329596",
+      "conditions": "@queried_course_name:CS591",
+      "dialog_node": "node_7_1611594262829",
+      "previous_sibling": "node_3_1611594106839"
+    },
+    {
+      "type": "standard",
+      "title": "CS605",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "CS605--Research Methods<hr>Analysis of the types, sources, methods, and philosophy of computer science and completion of a research project. (3 credit hours)."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1611595329596",
+      "conditions": "@queried_course_name:CS605",
+      "dialog_node": "node_7_1611594322929",
+      "previous_sibling": "node_1_1611594297555"
+    },
+    {
+      "type": "standard",
+      "title": "CY650",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "CY650--Legal, Risk and Compliance for Security<hr>Cybercrime and legal framework; digital assets and business law; compliance and risk measurement within cyberspace. Prerequisites: CS 500; CS 503. (3 credit hours)."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1611595329596",
+      "conditions": "@queried_course_name:CY650",
+      "dialog_node": "node_7_1611594402579",
+      "previous_sibling": "node_8_1611594450292"
+    },
+    {
+      "type": "standard",
+      "title": "CS634",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "CS634--Machine Learning<hr>Overview of many concepts, techniques, and algorithms related to machine learning. Prerequisites: CS 500; CS 503. (3 credit hours)."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1611595329596",
+      "conditions": "@queried_course_name:CS634",
+      "dialog_node": "node_7_1611594631672",
+      "previous_sibling": "node_2_1611594591623"
+    },
+    {
+      "type": "standard",
+      "title": "CY610",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "CY610--Web Application Security<hr>Web/Cloud authentication, certificate authority and cryptographic standards; security requirements, threat modeling and secure coding standards. Prerequisites: CS 500. (3 credit hours)."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1611595329596",
+      "conditions": "@queried_course_name:CY610",
+      "dialog_node": "node_7_1611594896454",
+      "previous_sibling": "node_10_1611594935822"
+    },
+    {
+      "type": "standard",
+      "title": "Get prerequisite courses for degree",
+      "output": {
+        "generic": [
+          {
+            "title": "The prerequisite courses for this degree are as follows",
+            "options": [
+              {
+                "label": "CS500: Fundamentals Of Programming",
+                "value": {
+                  "input": {
+                    "text": "CS500"
+                  }
+                }
+              },
+              {
+                "label": "CS503: Fundamentals of Computing",
+                "value": {
+                  "input": {
+                    "text": "CS503"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          },
+          {
+            "values": [
+              {
+                "text": "<hr>\nNote: CS503 and CS500 do not give you credits that count towards your degree.\n</hr>\n<li><a target=\"_blank\" href=\"https://www.semo.edu/study/MS-computer-science.html\">More Information about Prerequisites</a></li>\n<li><a target=\"_blank\" href=\"https://www.youtube.com/watch?v=e9Nm1fhLy1s\">Video Guide about Prerequisites</a></li>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_9_1615933476554",
+      "conditions": "#get_prerequisite_courses_for_degree",
+      "dialog_node": "node_7_1611597670298"
+    },
+    {
+      "type": "standard",
+      "title": "MA664",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "MA664--Mathematical Cyrptography<hr>Basic concepts of secure communication, classical cryptography and cryptoanalysis, monoalphabetic and polyalphabetic ciphers. Shannon’s theory of secrecy. Modern private-key cryptosystems such as DES, and public-key cryptosystems such as RSA.\nPrerequisite: MA223 or MA250 or MA338 or MA245 or MA443 with a grade of ‘C’ or higher. (3 credit hours)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1611595329596",
+      "conditions": "@queried_course_name:MA664",
+      "dialog_node": "node_7_1615921119838",
+      "previous_sibling": "node_5_1611594979301"
+    },
+    {
+      "type": "standard",
+      "title": "GR698",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "GR698<hr>Written comprehensive examination over the degree program. Students must enroll in GR698 during the final semester, except by permission of the graduate program coordinator. Examination fee applied."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1611595329596",
+      "conditions": "@queried_course_name:GR698",
+      "dialog_node": "node_7_1615946610247",
+      "previous_sibling": "node_7_1615921119838"
+    },
+    {
+      "type": "standard",
+      "title": "CS500",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "CS500--Fundamentals of Programming<hr>Data structures, algorithms, object orientation and standard libraries with emphasis on practical programming. Prerequisite: consent of department chairperson. (CS500 does not count towards your degree. However you are required to clear them before you are allowed any regular core or optional course in the subsequent semesters)."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1611595329596",
+      "conditions": "@queried_course_name:CS500",
+      "dialog_node": "node_8_1611593571074"
+    },
+    {
+      "type": "standard",
+      "title": "CS581",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "CS581--Advanced Network Programming<hr>Client-server communication, inter-process communication, and secure networking programming. Prerequisites: CS300 and CS380 and CS480, or CS500 and CS503; with minimum grades of C. (3 credit hours)."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1611595329596",
+      "conditions": "@queried_course_name:CS581",
+      "dialog_node": "node_8_1611594065587",
+      "previous_sibling": "node_6_1611594043073"
+    },
+    {
+      "type": "standard",
+      "title": "CY643",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "CY643--Independent Study<hr>Learn to apply knowledge and skills within a topic in cybersecurity independently under supervision from advisors. (3 credit hours)."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1611595329596",
+      "conditions": "@queried_course_name:CY643",
+      "dialog_node": "node_8_1611594450292",
+      "previous_sibling": "node_5_1611594500580"
+    },
+    {
+      "type": "standard",
+      "title": "CS650",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "CS650--Theory of Computation<hr>Models of computation and theory of programming languages. Prerequisites: CS500; CS503. (3 credit hours)."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1611595329596",
+      "conditions": "@queried_course_name:CS650",
+      "dialog_node": "node_8_1611594869731",
+      "previous_sibling": "node_1_1611594837240"
+    },
+    {
+      "type": "standard",
+      "title": "CS691",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "CS691--Independent Study<hr>Independent study in Computer Science. (1 credit hour)."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1611595329596",
+      "conditions": "@queried_course_name:CS691",
+      "dialog_node": "node_8_1611594935334",
+      "previous_sibling": "node_10_1611594913328"
+    },
+    {
+      "type": "standard",
+      "title": "CS693",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "CS693--Independent Study<hr>Covers topics in computer science independently under the supervision of advisors. (3 credit hours)."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1611595329596",
+      "conditions": "@queried_course_name:CS693",
+      "dialog_node": "node_8_1611594956747",
+      "previous_sibling": "node_8_1611594935334"
+    },
+    {
+      "type": "standard",
+      "title": "Get required number of credits / course to graduate for CS",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "In order to graduate from the Applied Computer Science degree, you need to complete a total of 30 credit hours.<hr>\n1. For non-thesis students:\n   <li>18 credit hours of core courses</li>\n   <li>12 credit hours of electives</li>\n    <li>You also need to enroll in:</li>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "CS690 (0 Credit Hours)",
+                "value": {
+                  "input": {
+                    "text": "CS690"
+                  }
+                }
+              },
+              {
+                "label": "GR698 (0 Credit Hours)",
+                "value": {
+                  "input": {
+                    "text": "GR698"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          },
+          {
+            "values": [
+              {
+                "text": "<hr>2. For thesis students:\n<li>18 credit hours of core courses</li>\n<li>6 credit hours of electives</li>\n<li>You also need to enroll in:</li>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "CS697 (3 Credit Hours)",
+                "value": {
+                  "input": {
+                    "text": "CS697"
+                  }
+                }
+              },
+              {
+                "label": "CS698 (3 Credit Hours)",
+                "value": {
+                  "input": {
+                    "text": "CS698"
+                  }
+                }
+              },
+              {
+                "label": "GR699 (0 Credit Hours)",
+                "value": {
+                  "input": {
+                    "text": "GR699"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_2_1611775126827",
+      "conditions": "#get_required_credits_for_degree_cs",
+      "dialog_node": "node_8_1611597136293",
+      "previous_sibling": "node_1_1611595725820"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Core courses are courses that you must take in order to graduate. The following courses are required for CS majors. More information can be found in your <a target=\"_blank\" href=\"https://degree.semo.edu:8443/dwprod/dwdashboard/dashboard\">degree works</a>."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "CY501: Introduction to Cybersecurity (3 credit hours)",
+                "value": {
+                  "input": {
+                    "text": "CY 501"
+                  }
+                }
+              },
+              {
+                "label": "CS 506: Distributed Cloud Computing (3 credit hours)",
+                "value": {
+                  "input": {
+                    "text": "CS 506"
+                  }
+                }
+              },
+              {
+                "label": "CS 591: Advanced Artificial Intelligence (3 credit hours)",
+                "value": {
+                  "input": {
+                    "text": "CS 591"
+                  }
+                }
+              },
+              {
+                "label": "CS 605: Research Methods (3 credit hours)",
+                "value": {
+                  "input": {
+                    "text": "CS 605"
+                  }
+                }
+              },
+              {
+                "label": "CS 609: Advanced Programming Languages (3 credit hours)",
+                "value": {
+                  "input": {
+                    "text": "CS 630"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          },
+          {
+            "values": [
+              {
+                "text": "<hr><li><a target=\"_blank\" href=\"https://www.semo.edu/pdf/degree_map/2020-2021/grad/MA-AppliedComputerScience-2021.pdf\">MACS Degree Map</a></li>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1611775178283",
+      "conditions": "#get_list_of_cs_core_courses",
+      "dialog_node": "node_9_1611534065859",
+      "previous_sibling": "node_6_1611533920787"
+    },
+    {
+      "type": "standard",
+      "title": "CS505",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "CS505--Data Mining<hr>Trends, principles and applications of data mining. Prerequisites: CS 265 or CS 500 with minimum grade of C. (3 credit hours)."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1611595329596",
+      "conditions": "@queried_course_name:CS505",
+      "dialog_node": "node_9_1611593725881",
+      "previous_sibling": "node_6_1611593627022"
+    },
+    {
+      "type": "standard",
+      "title": "CY691",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "CY691--Thesis Research I<hr>Students develop knowledge, understanding and skills necessary to work with problems in the area of cybersecurity in a scientific manner. Prerequisites: CY 655. (3 credit hours)."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1611595329596",
+      "conditions": "@queried_course_name:CY691",
+      "dialog_node": "node_9_1611593996958",
+      "previous_sibling": "node_2_1611594104464"
+    },
+    {
+      "type": "standard",
+      "title": "CY660",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "CY660--Cyber Operations<hr>Cyberspace and Cyber warfare; tools, techniques of cyber offense and defensive tactics; foot printing and monitoring. Prerequisites: CS 500; CS503. (3 credit hours)."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1611595329596",
+      "conditions": "@queried_course_name:CY660",
+      "dialog_node": "node_9_1611594216847",
+      "previous_sibling": "node_3_1611594261031"
+    },
+    {
+      "type": "standard",
+      "title": "CS630",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "CS630--Current Topics in Human Computer Interactions<hr>Designing interfaces for interactive systems, usability engineering techniques; and implementing and evaluating interfaces. (3 credit hours)."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1611595329596",
+      "conditions": "@queried_course_name:CS630",
+      "dialog_node": "node_9_1611594446243",
+      "previous_sibling": "node_2_1611594415260"
+    },
+    {
+      "type": "standard",
+      "title": "CS631",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "CS631--Advanced Software Engineering<hr>Software engineering processes, project planning, scheduling, metrics, estimation, testing/quality, and management. Prerequisite: CS 500. (3 credit hours)."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1611595329596",
+      "conditions": "@queried_course_name:CS631",
+      "dialog_node": "node_9_1611594472983",
+      "previous_sibling": "node_9_1611594446243"
+    },
+    {
+      "type": "standard",
+      "title": "CS699",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "CS699--Internship<hr>Supervised learning and work experience in professional field which augments the knowledge in computer science. (3 credit hours)."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1611595329596",
+      "conditions": "@queried_course_name:CS699",
+      "dialog_node": "node_9_1611595121288",
+      "previous_sibling": "node_2_1611593781971"
+    },
+    {
+      "type": "standard",
+      "title": "Get Degree Works information",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The degree works is an overview of the requirements of courses for your degree.\nIt shows the courses that you are enrolled in in the current semester and the courses that you have enrolled in in the past."
+              },
+              {
+                "text": "You can access your degree works in the <a target=\"_blank\" href=\"https://portal.semo.edu\">SEMO Portal</a>\n1. Log in with your SEMO key\n2. Go to Student SS from the left\n3. Scroll down and click on degree works\n<hr>\n<li><a target=\"_blank\" href=\"https://degree.semo.edu:8443/dwprod/dwdashboard/dashboard\">Click here to go to Degree Works</a></li>"
+              },
+              {
+                "text": "<li><a href=\"https://www.youtube.com/watch?v=LuY3EEPSCPw\">Video Guide on how to access your degree works</a></li>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "conditions": "#get_degree_works_info",
+      "dialog_node": "node_9_1615916147377",
+      "previous_sibling": "node_5_1616989056331"
+    },
+    {
+      "type": "folder",
+      "title": "Adding/Dropping Courses",
+      "dialog_node": "node_9_1615931232363",
+      "previous_sibling": "node_6_1611588960751"
+    },
+    {
+      "type": "folder",
+      "title": "Prerequisites",
+      "dialog_node": "node_9_1615933476554"
+    },
+    {
+      "type": "standard",
+      "title": "Greeting",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello, graduate student. How can I help you?"
+              },
+              {
+                "text": "Hello, graduate student. What can I help you with today."
+              },
+              {
+                "text": "Hello, graduate student, what kind of help would you like today?"
+              },
+              {
+                "text": "Hello, graduate student, I will help you with graduate advising, what would you like to inquire?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "#greeting",
+      "dialog_node": "Welcome",
+      "previous_sibling": "node_9_1615931232363"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "off_topic": {
+      "enabled": true
+    },
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": ""
+    },
+    "system_entities": {
+      "enabled": true
+    },
+    "human_agent_assist": {
+      "prompt": "Did you mean:"
+    },
+    "intent_classification": {
+      "training_backend_version": "v2"
+    },
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  "name": "advising",
+  "language": "en",
+  "description": ""
+}
